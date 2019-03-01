@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint BYPhoneNumTF.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YCLPodCode.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -8,26 +8,14 @@
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   s.name         = "BYPhoneNumTF"
   s.version      = "0.0.1"
-  s.summary      = "A short description of BYPhoneNumTF."
+  s.summary      = "BYPhoneNumTF file"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
 
-  s.homepage     = "http://EXAMPLE/BYPhoneNumTF"
+  s.description  = "Custom TestPods description"
+
+  s.homepage     = "https://github.com/BeiNian/BYPhoneNumTF"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +26,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,10 +40,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "kyq" => "kyq@qq.com" }
-  # Or just: s.author    = "kyq"
-  # s.authors            = { "kyq" => "kyq@qq.com" }
-  # s.social_media_url   = "http://twitter.com/kyq"
+  s.author             = { "TomorrowY" => "chuanlongY@163.com" }
+  # Or just: s.author    = "TomorrowY"
+  # s.authors            = { "TomorrowY" => "chuanlongY@163.com" }
+  # s.social_media_url   = "http://twitter.com/TomorrowY"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +67,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/BYPhoneNumTF.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/BeiNian/BYPhoneNumTF.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +78,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "BYPhoneNumTF/**/*.{h,m}", "BYPhoneNumTF/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,7 +104,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
