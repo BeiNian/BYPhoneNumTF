@@ -9,7 +9,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "BYPhoneNumTF"
+<<<<<<< HEAD
   s.version      = "0.0.1"
+=======
+  s.version      = "1.0"
+>>>>>>> 7ecd4af5dd917fd5336d2e2a69dc9aa97c4a3b24
   s.summary      = "BYPhoneNumTF file"
 
 
